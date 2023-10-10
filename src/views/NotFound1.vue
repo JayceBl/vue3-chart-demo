@@ -4,7 +4,9 @@
     <div class="divider"></div>
     <div class="not-found-message">
       <p class="not-found-message">
-        您访问的页面不存在，请检查URL是否正确或返回<a href="/">首页</a>
+        您访问的页面不存在，请检查URL是否正确或返回<a href="/vue3-chart-demo/"
+          >首页</a
+        >
       </p>
     </div>
   </div>
