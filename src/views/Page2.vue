@@ -13,62 +13,22 @@
 </template>
 
 <script setup>
-import { BarChart, ChinaMap } from "@/components/chart/index.js";
+import { BarChart } from "@/components/chart/index.js";
 import AutoList from "../components/AutoList.vue";
 </script>
 
 <style lang="scss" scoped>
 .page2 {
-  display: grid;
-  grid-template-rows: repeat(3, 33.33%);
-  grid-template-columns: repeat(3, 33.33%);
-  grid-template-areas:
-    "item1 item2 item3"
-    "item4 item5 item6"
-    "item7 item8 item9";
+  width: 100%;
+  height: 100%;
 
-  height: calc(100% - 80px);
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .page2 > div {
   border-radius: 5px;
   place-items: center;
-}
-
-.item1 {
-  grid-area: item1;
-}
-
-.item2 {
-  grid-area: item2;
-}
-
-.item3 {
-  grid-area: item3;
-}
-
-.item4 {
-  grid-area: item4;
-}
-
-.item5 {
-  grid-area: item5;
-}
-
-.item6 {
-  grid-area: item6;
-}
-
-.item7 {
-  grid-area: item7;
-}
-
-.item8 {
-  grid-area: item8;
-  background-color: lightcoral;
-}
-
-.item9 {
-  grid-area: item9;
 }
 </style>

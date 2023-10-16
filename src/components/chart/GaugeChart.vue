@@ -1,9 +1,5 @@
 <template>
-  <div
-    class="gauge-chart"
-    ref="gaugeChartRef"
-    style="width: 400px; height: 300px"
-  ></div>
+  <div class="gauge-chart" ref="gaugeChartRef"></div>
 </template>
 
 <script setup>
@@ -41,4 +37,9 @@ onMounted(() => {
 });
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.gauge-chart {
+  width: 100%;
+  height: 100%;
+}
+</style>

@@ -29,6 +29,16 @@ const routes = [
         name: "Page4",
         component: () => import("@/views/Page4.vue"),
       },
+      {
+        path: "page5",
+        name: "Page5",
+        component: () => import("@/views/Page5.vue"),
+      },
+      {
+        path: "page6",
+        name: "Page6",
+        component: () => import("@/views/Page6.vue"),
+      },
     ],
   },
   { path: "/:pathMatch(.*)*", name: "NotFound", component: NotFound1 },
